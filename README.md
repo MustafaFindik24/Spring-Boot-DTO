@@ -26,3 +26,18 @@ ModelMapper Dependency Injection yöntemiyle Service katmanına dahil edilerek M
 
 ![image](https://user-images.githubusercontent.com/91599453/219684370-1741bce1-6266-4565-ba0e-527abe46647b.png)
 
+Controller katmanında mapping işlemleri sonrasında Swagger üzerinden oluşturulan veri transfer objeleri kontrol edildi.
+
+![image](https://user-images.githubusercontent.com/91599453/219685671-0440af0a-130d-48a6-a0fa-02ae224de586.png)
+
+Dönen response'un istenilen şekilde GET isteğindeki verileri listelediği görüldü.
+
+![image](https://user-images.githubusercontent.com/91599453/219685921-b66c3950-65f2-490f-85a4-a929ea6376e7.png)
+
+
+
+
+
+
+
+
