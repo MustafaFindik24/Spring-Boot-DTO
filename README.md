@@ -12,7 +12,17 @@ Spring Boot kullanarak bir user projesi oluşturuldu. Kullanıcı bilgileriyle C
 
 application.properties dosyasında Postgresql DB bağlantısı ve Swagger UI propertyleri oluşturuldu.
 
-!![image](https://user-images.githubusercontent.com/91599453/219682469-ff239518-be37-49c5-88ca-b285b1c64f3e.png)
+![image](https://user-images.githubusercontent.com/91599453/219682469-ff239518-be37-49c5-88ca-b285b1c64f3e.png)
 
+Repository, Service ve Controller katmanları oluşturularak CRUD işlemleri HTTP metotları kullanılarak sağlandı. Ricardson Maturity Model 2.Seviye path yazımı kullanıldı. Configuration anotasyonu kullanılarak sınıfın bir config dosyası hale getirilmesi sağlandı. ModelMapper sınıfı Maven üzerinden dependency olarak eklenerek config dosyası projeye eklendi. 
 
+![image](https://user-images.githubusercontent.com/91599453/219683277-67b97d1b-a8f5-44d0-8671-3a8b7d172ffb.png)
+
+Farklı isteklere göre farklı veriler üzerinde değişiklik yapabilmek için birden fazla DTO oluşturuldu.
+
+![image](https://user-images.githubusercontent.com/91599453/219683729-6c21d1d7-4261-4192-a028-898f8de76acf.png)
+
+ModelMapper Dependency Injection yöntemiyle Service katmanına dahil edilerek Model katmanındaki entitylerin map() metoduyla DTO olarak dönüşümü sağlandı.
+
+![image](https://user-images.githubusercontent.com/91599453/219684370-1741bce1-6266-4565-ba0e-527abe46647b.png)
 
